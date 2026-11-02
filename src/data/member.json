@@ -74,6 +74,14 @@
 			"website": "https://losthread-portfolio.vercel.app/",
 			"description": "Security and AI larper plus low level dev sometimes",
 			"twitter": "https://x.com/losthr3ad"
+    },
+    {
+			"id": "manthan",
+			"name": "Manthan",
+			"github": "manthanawgan",
+			"website": "https://manthan3.me",
+			"description": "wanderer of rabbit holes",
+			"twitter": "https://x.com/manthan3_tw"
 		}
 	]
 }
