@@ -53,9 +53,6 @@ function getRedirectMember(from : string | null , redirection: Redirection): Mem
 
 			return members[nextIndex];
 		}
-		case "random": {
-			return undefined // This should never be executed
-		}
 	}
 }
 
