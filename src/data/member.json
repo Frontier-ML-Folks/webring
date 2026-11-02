@@ -17,6 +17,14 @@
 			"website": "https://souls-syntax.github.io/portfolio/",
 			"description": "C hacker",
 			"twitter": "https://x.com/souls_syntax/"
+		},
+		{
+			"id": "saadlarps",
+			"name": "Saad",
+			"github": "Saad1926Q",
+			"website": "https://sodakeyeatsmush.vercel.app/",
+			"description": "I like to larp.",
+			"twitter": "https://x.com/sodakeyEatsMush"
 		}
 	]
 }
