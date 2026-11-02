@@ -207,7 +207,7 @@ export function buildHtml(members: readonly Member[]): string {
 
                 <footer>
                     <div>
-                        My Webring &mdash;
+                        FMLF Webring &mdash;
                         <a href="/api/members">members list json</a> &mdash;
                         <a href="/api/random">random website</a>
                     </div>
