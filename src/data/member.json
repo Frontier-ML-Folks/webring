@@ -25,6 +25,14 @@
 			"website": "https://sodakeyeatsmush.vercel.app/",
 			"description": "I like to larp.",
 			"twitter": "https://x.com/sodakeyEatsMush"
+		},
+		{
+			"id": "pandeyps",
+			"name": "Prashant Pandey",
+			"github": "pandey-ps",
+			"website": "https://pandey-ps.github.io/",
+			"description": "deep neural larps.",
+			"twitter": "https://x.com/pandeyps_/"
 		}
 	]
 }
