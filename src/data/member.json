@@ -66,6 +66,14 @@
 			"website": "https://miltonht.dev",
 			"description": "Professional larper.",
 			"twitter": "https://x.com/miltonactual"
+		},
+		{
+			"id": "manthan",
+			"name": "Manthan",
+			"github": "manthanawgan",
+			"website": "https://manthan3.me",
+			"description": "wanderer of rabbit holes",
+			"twitter": "https://x.com/manthan3_tw"
 		}
 	]
 }
