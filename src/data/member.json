@@ -68,6 +68,14 @@
 			"twitter": "https://x.com/miltonactual"
 		},
 		{
+      		"id": "losthread",
+			"name": "Parth Naik",
+			"github": "losthread",
+			"website": "https://losthread-portfolio.vercel.app/",
+			"description": "Security and AI larper plus low level dev sometimes",
+			"twitter": "https://x.com/losthr3ad"
+    },
+    {
 			"id": "manthan",
 			"name": "Manthan",
 			"github": "manthanawgan",
