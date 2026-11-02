@@ -1,0 +1,20 @@
+{
+	"members": [
+		{
+			"id": "mhxxx",
+			"name": "mysteriousheroinexxx",
+			"github": "mysteriousheroinexxx",
+			"website": "https://mysteriousheroinexxx.github.io/",
+			"description": "Your friendly neighbourhood zig guy",
+			"twitter": "https://x.com/mhxxxmorgan",
+			"email": "mysteriousheroinexxx@proton.me",
+			"codeberg": "https://codeberg.org/mysteriousheroinexxx"
+		},
+		{
+			"id": "aakarsh",
+			"name": "Aakarsh Kashyap",
+			"github": "souls-syntax",
+			"website": "https://souls-syntax.github.io/portfolio/"
+		}
+	]
+}
