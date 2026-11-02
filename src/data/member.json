@@ -35,5 +35,13 @@
 			"twitter": "https://x.com/X3r0DaySec",
 			"email": "cr4n@duck.com"
 		},
+    {
+			"id": "pandeyps",
+			"name": "Prashant Pandey",
+			"github": "pandey-ps",
+			"website": "https://pandey-ps.github.io/",
+			"description": "deep neural larps.",
+			"twitter": "https://x.com/pandeyps_/"
+		}
 	]
 }
