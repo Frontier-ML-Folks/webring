@@ -27,6 +27,15 @@
 			"twitter": "https://x.com/sodakeyEatsMush"
 		},
 		{
+			"id": "x3r0day",
+			"name": "X3r0Day",
+			"github": "x3r0day",
+			"website": "https://x3r0day.me/",
+			"description": "Security Researcher & Bug Hunter",
+			"twitter": "https://x.com/X3r0DaySec",
+			"email": "cr4n@duck.com"
+		},
+    {
 			"id": "pandeyps",
 			"name": "Prashant Pandey",
 			"github": "pandey-ps",
@@ -41,6 +50,14 @@
 			"website": "https://axrshz.github.io/",
 			"description": "god of larp",
 			"twitter": "https://x.com/axrshz/"
+    },
+    {
+      "id": "HarshV0M",
+			"name": "Harshvardhan Maurya",
+			"github": "harshvardhan0maurya",
+			"website": "https://harshvardhan0maurya.github.io/",
+			"description": "E = mc² + AI ",
+			"twitter": "https://x.com/HarshV0M"
 		}
 	]
 }
