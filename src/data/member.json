@@ -25,6 +25,15 @@
 			"website": "https://sodakeyeatsmush.vercel.app/",
 			"description": "I like to larp.",
 			"twitter": "https://x.com/sodakeyEatsMush"
-		}
+		},
+		{
+			"id": "x3r0day",
+			"name": "X3r0Day",
+			"github": "x3r0day",
+			"website": "https://x3r0day.me/",
+			"description": "Security Researcher & Bug Hunter",
+			"twitter": "https://x.com/X3r0DaySec",
+			"email": "cr4n@duck.com"
+		},
 	]
 }
