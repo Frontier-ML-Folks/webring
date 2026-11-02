@@ -1,88 +1,32 @@
-# FMLF Webring API
+# FMLF Webring
 
-The web ring is hosted at [`https://webring.chaldea.moe`](https://webring.chaldea.moe). Its API returns the member list as JSON and provides redirects to member websites.
+## Add yourself
 
-## Endpoints
-
-### `GET /api/members`
-
-Returns the full member list as a JSON array.
-
-```sh
-curl https://webring.chaldea.moe/api/members
-```
-
-Each member has these fields:
-
-| Field | Type | Description |
-| --- | --- | --- |
-| `id` | string | Stable identifier used by the navigation endpoints. |
-| `name` | string | Display name. |
-| `github` | string | GitHub username. |
-| `website` | string | Website URL used as the redirect destination. |
-| `description` | string, optional | Short member description. |
-| `twitter` | string, optional | X/Twitter URL. |
-| `email` | string, optional | Email address. |
-| `codeberg` | string, optional | Codeberg URL. |
-
-Example response:
+Submit a pull request adding your details to the `members` array in [`src/data/member.json`](src/data/member.json):
 
 ```json
-[
-  {
-    "id": "mhxxx",
-    "name": "mysteriousheroinexxx",
-    "github": "mysteriousheroinexxx",
-    "website": "https://mysteriousheroinexxx.github.io/",
-    "description": "Your friendly neighbourhood zig guy",
-    "twitter": "https://x.com/mhxxxmorgan",
-    "email": "mysteriousheroinexxx@proton.me",
-    "codeberg": "https://codeberg.org/mysteriousheroinexxx"
-  }
-]
+{
+  "id": "your-id",
+  "name": "Your Name",
+  "github": "your-github-username",
+  "website": "https://your-website.example",
+  "description": "A short introduction",
+  "twitter": "https://x.com/your-username",
+  "email": "you@example.com",
+  "codeberg": "https://codeberg.org/your-username"
+}
 ```
 
-### `GET /api/next?from={id}`
+Use a unique, simple `id`; it is used in your webring links. `description`, `twitter`, `email`, and `codeberg` are optional. Open a PR with your change to request being added to the ring.
 
-Redirects to the next member's website in the configured member order. The final member wraps around to the first.
+## Use the API
 
-```sh
-curl -i 'https://webring.chaldea.moe/api/next?from=mhxxx'
-```
-
-### `GET /api/prev?from={id}`
-
-Redirects to the previous member's website. The first member wraps around to the final member.
-
-```sh
-curl -i 'https://webring.chaldea.moe/api/prev?from=mhxxx'
-```
-
-### `GET /api/random`
-
-Redirects to a randomly selected member's website.
-
-```sh
-curl -i 'https://webring.chaldea.moe/api/random'
-```
-
-Optionally provide `from` to exclude that member from the random selection:
-
-```sh
-curl -i 'https://webring.chaldea.moe/api/random?from=mhxxx'
-```
-
-For example, a website can link visitors into the ring with:
+Add these links to your website, replacing `your-id` with the `id` you chose above:
 
 ```html
-<a href="https://webring.chaldea.moe/api/prev?from=mhxxx">Previous</a>
-<a href="https://webring.chaldea.moe/api/next?from=mhxxx">Next</a>
-<a href="https://webring.chaldea.moe/api/random?from=mhxxx">Random</a>
+<a href="https://webring.chaldea.moe/api/prev?from=your-id">Previous</a>
+<a href="https://webring.chaldea.moe/api/next?from=your-id">Next</a>
+<a href="https://webring.chaldea.moe/api/random?from=your-id">Random</a>
 ```
 
-## Responses and errors
-
-- Successful navigation returns **302 Found**, with the destination in the `Location` header. Browsers follow this redirect automatically.
-- `/api/next` and `/api/prev` return **400 Bad Request** with `Missing member ID` if `from` is omitted.
-- Navigation returns **404 Not Found** if `from` is not a known member ID, or if there are fewer than two members.
-- Any other path returns **404 Not Found** with `Not Found`.
+Each navigation endpoint redirects visitors to a member's website. The random endpoint excludes you when given your ID. The member list is available as JSON at <https://webring.chaldea.moe/api/members>.
