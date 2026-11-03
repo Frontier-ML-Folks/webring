@@ -98,6 +98,15 @@
 		  	"website": "https://ved-in.github.io/",
 		  	"description": "I like ML... and suck at... development...",
 		  	"twitter": "https://x.com/ved_in_"
+		},
+		{
+		"id": "sarthak",
+		"name": "Sarthak",
+		"github": "saarthak314",
+		"website": "https://sarrthak.com",
+		"description": "i play with systems & compilers.",
+		"twitter": "https://x.com/sarthak2143",
+		"email": "sarthaktomar2143@gmail.com",
 		}
 	]
 }
