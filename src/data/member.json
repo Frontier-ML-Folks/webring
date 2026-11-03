@@ -90,6 +90,15 @@
   	"website": "https://utkarsh-1771.github.io/Portfolio/",
   	"description": "I like java :)",
   	"twitter": "https://x.com/Utkarsh_1771"
+		},
+		{
+		"id": "sarthak",
+		"name": "Sarthak",
+		"github": "saarthak314",
+		"website": "https://sarrthak.com",
+		"description": "i play with systems & compilers.",
+		"twitter": "https://x.com/sarthak2143",
+		"email": "sarthaktomar2143@gmail.com",
 		}
 	]
 }
