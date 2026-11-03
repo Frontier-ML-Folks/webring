@@ -74,8 +74,8 @@
 			"website": "https://losthread-portfolio.vercel.app/",
 			"description": "Security and AI larper plus low level dev sometimes",
 			"twitter": "https://x.com/losthr3ad"
-    },
-    {
+    	},
+    	{
 			"id": "manthan",
 			"name": "Manthan",
 			"github": "manthanawgan",
@@ -84,12 +84,20 @@
 			"twitter": "https://x.com/manthan3_tw"
 		},
 		{
-  	"id": "utkarsh",
-  	"name": "Utkarsh",
-  	"github": "Utkarsh-1771",
-  	"website": "https://utkarsh-1771.github.io/Portfolio/",
-  	"description": "I like java :)",
-  	"twitter": "https://x.com/Utkarsh_1771"
+		  	"id": "utkarsh",
+		  	"name": "Utkarsh",
+		  	"github": "Utkarsh-1771",
+		  	"website": "https://utkarsh-1771.github.io/Portfolio/",
+		  	"description": "I like java :)",
+		  	"twitter": "https://x.com/Utkarsh_1771"
+		},
+		{
+		  	"id": "ved-in",
+		  	"name": "Vedant Jain",
+		  	"github": "ved-in",
+		  	"website": "https://ved-in.github.io/",
+		  	"description": "I like ML... and suck at... development...",
+		  	"twitter": "https://x.com/ved_in_"
 		}
 	]
 }
