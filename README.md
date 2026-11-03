@@ -24,9 +24,9 @@ Use a unique, simple `id`; it is used in your webring links. `description`, `twi
 Add these links to your website, replacing `your-id` with the `id` you chose above:
 
 ```html
-<a href="https://webring.chaldea.moe/api/prev?from=your-id">Previous</a>
-<a href="https://webring.chaldea.moe/api/next?from=your-id">Next</a>
-<a href="https://webring.chaldea.moe/api/random?from=your-id">Random</a>
+<a href="https://larpring.com/api/prev?from=your-id">Previous</a>
+<a href="https://larpring.com/api/next?from=your-id">Next</a>
+<a href="https://larpring.com/api/random?from=your-id">Random</a>
 ```
 
-Each navigation endpoint redirects visitors to a member's website. The random endpoint excludes you when given your ID. The member list is available as JSON at <https://webring.chaldea.moe/api/members>.
+Each navigation endpoint redirects visitors to a member's website. The random endpoint excludes you when given your ID. The member list is available as JSON at <https://larpring.com/api/members>.

@@ -8,7 +8,7 @@
 
   "routes": [
     {
-      "pattern": "webring.chaldea.moe",
+      "pattern": "larpring.com",
       "custom_domain": true
     }
   ],
