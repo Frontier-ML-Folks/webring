@@ -90,6 +90,15 @@
   	"website": "https://utkarsh-1771.github.io/Portfolio/",
   	"description": "I like java :)",
   	"twitter": "https://x.com/Utkarsh_1771"
+		},
+		{
+			"id": "uzeb",
+			"name": "Uzeb Khan",
+			"github": "KhanUzeb",
+			"website": "https://uzebkhan.vercel.app",
+			"description": "A larper working my way around agents hehe",
+			"twitter": "https://x.com/X_Ibyte",
+			"email": "uzebkhan898@gmail.com"
 		}
 	]
 }
