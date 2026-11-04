@@ -116,6 +116,15 @@
 			"description": "i play with systems & compilers.",
 			"twitter": "https://x.com/sarthak2143",
 			"email": "sarthaktomar2143@gmail.com"
+		},
+		{
+			"id": "yuro-py",
+			"name": "yuro",
+			"github": "yuro-py",
+			"website": "https://yuro-py.github.io",
+			"description": "ceo of goynomics",
+			"twitter": "https://x.com/yur_o_0",
+			"email": "yuroxebec@gmail.com"
 		}
 	]
 }
