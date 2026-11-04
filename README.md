@@ -30,3 +30,9 @@ Add these links to your website, replacing `your-id` with the `id` you chose abo
 ```
 
 Each navigation endpoint redirects visitors to a member's website. The random endpoint excludes you when given your ID. The member list is available as JSON at <https://larpring.com/api/members>.
+
+## Button
+
+![FMLF Webring button](assets/webring-button.gif)
+
+Frontier ML folks can use the button at [`assets/webring-button.gif`](assets/webring-button.gif) on their websites to link to the webring.
